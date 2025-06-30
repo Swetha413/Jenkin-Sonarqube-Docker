@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Swetha413/Jenkin-Sonarqube-Docker.git'
+                git branch: 'main', url: 'https://github.com/Swetha413/Jenkin-Sonarqube-Docker.git'
             }
         }
 
